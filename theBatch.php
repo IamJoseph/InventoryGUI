@@ -3,7 +3,6 @@
 	<head>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <link rel="stylesheet" href="jquery-ui.min.css">
-    <script src="jquery.js"></script>
     <script src="jquery-ui.min.js"></script>
 		<link rel="stylesheet" href="styles.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
