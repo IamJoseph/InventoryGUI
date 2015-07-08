@@ -4,7 +4,7 @@
         protected static $connection;
         public function connect() {    
             if(!isset(self::$connection)) {
-                $config = parse_ini_file('/xampp/htdocs/config.ini');
+                $config = parse_ini_file('/xampp/htdocs/config.ini'); //replace with location of your database config file
                 self::$connection = new \mysqli('127.0.0.1',$config['username'],$config['password'],$config['dbname']); //needs the \ before mysqli for whatever reason
             }            
             if(self::$connection === false) {
