@@ -8,3 +8,5 @@ BEGIN
 SET NEW.middleDate = TIMESTAMPADD(DAY,12,NEW.date);
 SET NEW.endDate = TIMESTAMPADD(DAY,15,NEW.date);
 END
+
+To get an idea of what it looks like just visit my website: www.joeireland.com
