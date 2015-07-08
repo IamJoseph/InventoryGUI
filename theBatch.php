@@ -78,7 +78,7 @@
     <div class="outer">
       <button class="bucket">CREATE NEW BATCH</button>
     </div></br>
-    <form id="form1" name="batch" action="batch.php" method="POST">
+    <form id="form1" name="batch">
       Date:
       <input type="text" name="date" id="date"></br>
       Tea Type:
